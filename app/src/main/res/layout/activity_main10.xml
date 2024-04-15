@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg12"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/bangers"
+        android:text="Listen and Follow"
+        android:textAlignment="center"
+        android:textSize="41sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/alatsi"
+        android:text="**click the picture to listen to the sound**"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textColor="#730000" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="179dp"
+        android:layout_height="259dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="220dp"
+        app:srcCompat="@drawable/brother" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="174dp"
+        android:layout_height="256dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="225dp"
+        app:srcCompat="@drawable/lilsis" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="176dp"
+        android:layout_height="259dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/lilbro" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="175dp"
+        android:layout_height="253dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="505dp"
+        app:srcCompat="@drawable/sis" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="760dp"
+        android:text="Next"
+        android:textSize="20sp"
+        android:backgroundTint="#E91E63"
+        android:onClick="nextNext"/>
+
+</RelativeLayout>

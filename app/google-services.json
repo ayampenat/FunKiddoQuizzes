@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "332846899612",
+    "project_id": "funkiddoquizzes-cbeb1",
+    "storage_bucket": "funkiddoquizzes-cbeb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332846899612:android:3061ca3417493d0a192859",
+        "android_client_info": {
+          "package_name": "com.example.funkiddoquizzes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPPKMXLl3T0--QcHTjHicU6aMS6v-shPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

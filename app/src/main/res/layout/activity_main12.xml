@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg20"
+    tools:context=".MainActivity12">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="363dp"
+        android:layout_height="158dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Before we start , you need to know what trip this will take you to.."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="342dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="440dp"
+        android:fontFamily="@font/alatsi"
+        android:textColor="@color/black"
+        android:text="1. You need to choose your age category"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/alatsi"
+        android:text="2. You will learn some words after you choose the age before play the quiz"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="570dp"
+        android:fontFamily="@font/alatsi"
+        android:text="3. You can only answer the question once!"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"
+        android:backgroundTint="#FFA2C3"
+        android:fontFamily="@font/archivo_semibold_italic"
+        android:onClick="begin"
+        android:text="Let's Begin"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bangers"
+        android:text="User Manual"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+</RelativeLayout>

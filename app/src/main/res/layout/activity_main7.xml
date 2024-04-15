@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg8"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bangers"
+        android:text="Listen and Follow"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="190dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="170dp"
+        app:srcCompat="@drawable/one" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="190dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="170dp"
+        app:srcCompat="@drawable/two" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="190dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/three" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="190dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/four" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="190dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        app:srcCompat="@drawable/five" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="760dp"
+        android:text="Next"
+        android:textSize="20sp"
+        android:backgroundTint="#E91E63"
+        android:onClick="nextN"/>
+
+    <TextView
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/alatsi"
+        android:text="**click the picture to listen to the sound**"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textColor="#730000"/>
+</RelativeLayout>
